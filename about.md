@@ -19,6 +19,6 @@ I've been in love with computers since I got my first PC in the early 90s. It wa
 
 In late 2000s I worked as an IT helpdesk support. That gave me enough experience to transition to junior system administrator. Now I was exposed to various technical environments (Windows, Linux, large tape backup systems, numerous Cisco networking devices). It was an amazing time to learn some of these technologies inside out!
 
-While writing scripts and small utilities could be fun, I wanted to be involved in actual software development. That's why in 2016 I decided to transition to a career in software engineering. With the help from [Launch School](launchschool.com), I am now learning how to be a serious web developer! In the last year I learned a log about web-dev in general as well as various technologies and languages and frameworks, like Ruby and Ruby on Rails, Javascript (Backbone), SQL, Python and many other things.
+While writing scripts and small utilities could be fun, I wanted to be involved in actual software development. That's why in 2016 I decided to transition to a career in software engineering. With the help from [Launch School](launchschool.com), I am now learning how to be a serious web developer! In the last year I learned a lot about web-dev in general as well as various technologies, languages and frameworks, like Ruby and Ruby on Rails, Javascript (Backbone), SQL, Python and many others.
 
 Now I'm looking for a serious company I could contribute to, work on sophisticated engineering problems and make this world a better place!
