@@ -4,7 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-### Contact me
+### Ways to reach me:
+
+Email:
 
 [k@minevskiy.com](mailto:k@minevskiy.com)
-
