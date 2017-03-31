@@ -9,7 +9,7 @@ name: Konstantin Minevskiy
 description: Software Engineer's journey
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/17078736?v=3&s=460
+avatar: https://avatars0.githubusercontent.com/u/17078736?v=3&u=90e02d0554ba1473677cd7fc0e4f18b1874af014&s=400
 
 #
 # Flags below are optional
@@ -19,7 +19,7 @@ avatar: https://avatars3.githubusercontent.com/u/17078736?v=3&s=460
 footer-links:
   email: k@minevskiy.com
   github: kminevskiy
-  linkedin: www.linkedin.com/in/kminevskiy
+  linkedin: kminevskiy
   twitter: submell
 
 
@@ -75,4 +75,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-minimal
+theme: minima
