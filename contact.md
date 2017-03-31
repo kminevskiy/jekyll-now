@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Contact
+permalink: /contact/
 ---
 
-#### Email:
+### Ways to reach me:
+
+Email:
 
 [k@minevskiy.com](mailto:k@minevskiy.com)
