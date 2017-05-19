@@ -10,15 +10,15 @@ I've seen quite a few people thinking that linked lists are very tricky to under
 
 ### Linked list basics
 
-What's the definition of a linked list? It's an abstract, dynamic data structure that consists of linked nodes. Each node's payload includes actual data (anything you can think of: numbers, characters, other objects, etc) and a pointer to the next node.
+What's the definition of a linked list? It's an abstract, dynamic data structure that consists of linked nodes. Each node's payload includes actual data (anything you can think of really) and a pointer to the next node. In this article we'll look at singly-linked lists.
 
 ![Linked list structure]({{ site.url }}/images/ll.png)
 
-Unlike arrays, the linked list has no "connections" between each element other than pointers and unless we maintain these links at all times, "disconnected" nodes get dereferenced by the interpreter and disappear via garbage collection mechanism.
+Unlike arrays, the linked list has no "connections" between each element other than pointers. and unless we maintain these links at all times, there is no way to get to these "disconnected" nodes. Since we don't maintain references to these nodes in our program, they get garbage collected by the Ruby interpreter.
 
 OK, how about some actual code?
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 class Node
   attr_accessor :value, :next
 
@@ -44,9 +44,9 @@ Let's take a look at each class.
 First, we define our `Node` class. Each node has 2 attributes - its `value` (actual "thing" you want to store inside this node) and a pointer (this one will reference the `next` node). Initially, each newly initialized node points to `nil` (nowhere). Why? That's because we don't know if we may want to add any new nodes in the future.
 Our linked list class has 1 public attribute and that is its `head`. Don't think about this particular attribute as of something special - it simply represents our current list of nodes. In our case, it's a list of only 1 node.
 
-Linked list with one node? Strange and probably useless, so let's add some more nodes. For that we'll have to define a new instance method on the LinkedList class:
+Linked list with one node? Strange and probably useless, so let's add some more nodes. For that we'll have to define a new instance method on the `LinkedList` class:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 # previous code skipped for brevity
 
 def unshift(value)
@@ -67,7 +67,7 @@ This is all it takes to add a new node at the front of our linked list. This ope
 
 What if we want to remove an element from the "top" of our list? Not a problem!
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 # previous code skipped for brevity
 
 def shift
@@ -79,19 +79,19 @@ That's it! All we have to do is to dereference (cut all ties to the top element)
 
 How about inserting an element at the end of the list?
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 # previous code skipped for brevity
 
 def push(value)
-  current = head
-  while current.next != nil
-    current = current.next
+  node = head
+  while node.next
+    node = node.next
   end
-  current.next = Node.new(value)
+  node.next = Node.new(value)
 end
 {% endhighlight %}
 
-Here we use a temporary variable current to store the list. Then, as long as the next node is not empty (the end of the list), we "jump" from node to node. At last, when we locate the last node in the list, we set its pointer to the new node.
+Here we use a temporary variable `node` to store the list. Then, as long as the next node is not empty (the end of the list), we "jump" from node to node. At last, when we locate the last node in the list, we set its pointer to the new node.
 
 That's it for our introduction to linked lists in Ruby. As you can see, there is nothing magical about linked list and they tend to be useful in some cases, especially when you are working with data that has to be organized in a certain fashion. 
 
