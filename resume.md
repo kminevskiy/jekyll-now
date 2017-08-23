@@ -5,7 +5,7 @@ permalink: /resume/
 
 ### Objectives
 
-&nbsp;&nbsp;&nbsp;&nbsp;Software engineer with passion for great, impactful solutions. For the most part, I work with Ruby and JavaScript, but at the same time I consider myself language agnostic – I love to learn new tools regardless of their underlying framework/language. Most recently, I co-developed [Workerholic](https://workerholic.github.io/), a highly scalable background job processor written in Ruby.
+&nbsp;&nbsp;&nbsp;&nbsp;Software engineer with passion for great, impactful solutions. For the most part, I work with Ruby and JavaScript, but at the same time I consider myself language agnostic – I love to learn new tools regardless of the underlying framework/language. Most recently, I co-developed [Workerholic](https://workerholic.github.io/), a highly scalable background job processor written in Ruby.
 
 ### Skills
 
@@ -26,16 +26,16 @@ permalink: /resume/
 ### Experience
 #### Software Engineer (2017)
 ##### Workerholic (background job processor)
+##### Main Features:
 * Concurrent and parallel execution model
 * Integration with Ruby on Rails and custom applications
 * Multiple configuration options
 * Rich Web UI and reporting
 
 #### Systems Administrator (2012 – 2015)
-##### English USA Language School (Las Vegas, NV)
-* Developed and implemented school’s IT infrastructure (servers, client computers, networking equipment, backup solutions) from scratch.
-* Configured enterprise mail server for 500+ user environment.
-* Developed backup strategies for mission-critical nodes (domain controllers, mails servers) 
+* Developed and implemented IT infrastructure (servers, clients, networking, firewalls, backup solutions) from scratch
+* Configured enterprise mail server for 500+ user environment
+* Developed backup strategies for mission-critical nodes (domain controllers, mails servers)
 
 ### Education
 #### Taganrog State University of Engineering (2004-2009)

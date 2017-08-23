@@ -13,5 +13,5 @@ of the rest.
 * Multiple configuration options
 * Rich Web UI and reporting
 
-Follow this [link](https://workerholic.github.io/) to read more about Workerholic and our story.
+Follow <strong>this [link](https://workerholic.github.io/)</strong> to read more about Workerholic and our story.
 
