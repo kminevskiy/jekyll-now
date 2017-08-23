@@ -97,7 +97,7 @@ We then point `head` to`previous` (which we used to store our reversed list) and
 
 So now you understand the iterative approach to this problem. How about a recursive one?
 
-It is useful to understand how the call stack works. Please take a look at the following [article](minevskiy.com/call-stack) for details.
+It is useful to understand how the call stack works. Please take a look at the following [article](/call-stack) for details.
 
 In this example, let's assume that `head` points to the linked list with values 1, 2, 3, 4.
 

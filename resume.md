@@ -5,41 +5,39 @@ permalink: /resume/
 
 ### Objectives
 
-Software engineer with passion for great, impactful solutions is looking for a serious company to contribute to, work on sophisticated engineering problems and make this world a better place!
+&nbsp;&nbsp;&nbsp;&nbsp;Software engineer with passion for great, impactful solutions. For the most part, I work with Ruby and JavaScript, but at the same time I consider myself language agnostic – I love to learn new tools regardless of their underlying framework/language. Most recently, I co-developed [Workerholic](https://workerholic.github.io/), a highly scalable background job processor written in Ruby.
 
 ### Skills
 
-As a web-developer, I’ve been working with various languages, frameworks and tools. I used Ruby frameworks like Sinatra and Ruby on Rails to build different projects (both in terms of scope and complexity), such as Netflix-like application (with 3rd party services integration such as payment processing, business email providers, etc), Trello-inspired front-end app (heavy use of Backbone, jQuery, templating engines) and its back-end part written in JavaScript via Node’s Express web framework. To persist application’s data I used PostgreSQL RDBMS.
+* Languages: Ruby, JavaScript, SQL
+* Databases: PostgreSQL, MySQL, Redis
+* Frameworks: Ruby on Rails, Backbone, VueJS, Sinatra
+* OS: GNU/Linux, OS X, Windows Server
 
-As a system administrator, I have experience working with numerous operating systems, including almost all imaginable GNU/Linux distributions, Windows Server[2003-2016] and OS X. To efficiently manage my IT infrastructure I used popular monitoring tools like Nagios and Icinga.
+### Selected Project: Workerholic
+&nbsp;&nbsp;&nbsp;&nbsp;Workerholic is a multi-threaded, multi-process background job processing manager. It allows developers to decouple their application processing logic into a separate, self-sufficient process. Once installed and configured, Workerholic will take care of any time-consuming tasks that your application may have, be it “talking” to an external API, performing CPU-heavy calculations or simply running millions of these tasks together.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Among other features, Workerholic includes automatic load balancing, command-line interface, delayed jobs scheduler, multi-process operations, reporting web interface and full Ruby on Rails integration.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Follow this [link](https://workerholic.github.io/) to read more about Workerholic and our story.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Technology stack: Ruby, Redis, Rails, JavaScript, Heroku
 
 ### Experience
+#### Software Engineer (2017)
+##### Workerholic (background job processor)
+* Concurrent and parallel execution model
+* Integration with Ruby on Rails and custom applications
+* Multiple configuration options
+* Rich Web UI and reporting
 
-#### Systems Administrator (Oct 2012 – Mar 2016)
+#### Systems Administrator (2012 – 2015)
 ##### English USA Language School (Las Vegas, NV)
-
-* Developed and implemented school’s IT infrastructure (servers, client computers, networking equipment, backup solutions) from scratch. 
-* Collaborated with staff on how to improve educational methods through collaboration software.
-* Automated basic administrative task with Python, shell scripting and Ruby.
-
-#### Systems Administrator (Aug 2008 – June 2010)
-##### Public Library (Taganrog, Russian Federation)
-
-* Configured enterprise mail server for 300+ user environment.
-* Developed backup strategies for mission-critical nodes (domain controllers, mails servers, library digital resources).
-* Been involved in technical support staff training.
-
-#### Systems Engineer (Mar 2008 – Apr 2010)
-##### Regional Recovery Hospital (Taganrog, Russian Federation)
-
-* Support, update and maintenance of IT infrastructure. Transition the infrastructure from a simple workgroup to a well-managed and secure Active Directory environment.
-* Implemented federal government technical requirements for medical establishments.
+* Developed and implemented school’s IT infrastructure (servers, client computers, networking equipment, backup solutions) from scratch.
+* Configured enterprise mail server for 500+ user environment.
+* Developed backup strategies for mission-critical nodes (domain controllers, mails servers) 
 
 ### Education
-
-#### Launch School – Online Coursework            (2016-2017)
-* Full-Stack Web developer
-
-#### Taganrog State University of Engineering    (2004-2009)
+#### Taganrog State University of Engineering (2004-2009)
 * Master of Science, Information Technologies
 
