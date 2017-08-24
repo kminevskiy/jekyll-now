@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 ---
 
-[PDF version]({{ site.url }}/images/resume_2017.pdf)
+[PDF version]({{ site.url }}/docs/resume_2017.pdf)
 
 ### Objectives
 
