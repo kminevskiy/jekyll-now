@@ -3,6 +3,8 @@ layout: page
 permalink: /resume/
 ---
 
+[PDF version]({{ site.url }}/images/resume_2017.pdf)
+
 ### Objectives
 
 &nbsp;&nbsp;&nbsp;&nbsp;Software engineer with passion for great, impactful solutions. For the most part, I work with Ruby and JavaScript, but at the same time I consider myself language agnostic – I love to learn new tools regardless of the underlying framework/language. Most recently, I co-developed [Workerholic](https://workerholic.github.io/), a highly scalable background job processor written in Ruby.
